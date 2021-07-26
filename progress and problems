@@ -1,4 +1,5 @@
 1.运行两段代码MSOA_test_60_69_OSRM_exclude 和driving_cost_calculation_OSRM，但在运行过程中出现并解决了一些问题，如geopandas无法安装、Access库无法正常调用等，基本了解代码的思路和用途。
 2.MSOA_test_60_69_OSRM_exclude运行至读取行驶距离数据distance_cost_final_OSRM.csv来绘制10英里内无疫苗服务的地图，需要通过代码driving_cost_calculation_OSRM来获取distance_cost_final_OSRM.csv
 3.driving_cost_calculation_OSRM运行至API request时，出现连接超时、无响应等情况，因此未能得到distance_cost_final_OSRM.csv，也由此代码运行无法继续。
-4.阅读了LSCP和MCLP的文献Open‑source approaches for location cover models: capabilities and efficiency和其他相关文献，了解了LSCP、MCLP、p-media和p-center之间的联系和区别，能明白其原理和数学模型。
+4.使用google colab跑数据，出现了跑到一半断开连接的情况。
+5.阅读了LSCP和MCLP的文献Open‑source approaches for location cover models: capabilities and efficiency和其他相关文献，了解了LSCP、MCLP、p-media和p-center之间的联系和区别，能明白其原理和数学模型。
